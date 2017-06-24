@@ -1,4 +1,4 @@
-# Description
+# AlphaLoad
 AlphaLoad is a simple but sleek loading screen that has a lot of design options.
 
 # Installation
