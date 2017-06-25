@@ -36,7 +36,7 @@
                     <div class="letni">
                     <br>
                         <div class="loadbar"><div class="thingy"></div></div>
-                        <p class="status">Loading...</p>
+                        <p class="loading">Loading<font size="6"><span>.</span><span>.</span><span>.</span></font></p>
                     </div>
                     <script type="text/javascript">
 
@@ -79,6 +79,13 @@
                             (handlers[e.data.eventName] || function() {})(e.data);
                         });
                     </script>
+                    <audio id="loadingscreen" autoplay loop >
+         				<source src="Loading.ogg" type="audio/ogg">
+    				</audio>
+					<script>
+     					var vid = document.getElementById("loadingscreen");
+     					vid.volume = 0.1
+    				</script>
                 </div>
             </div>
         </header>
