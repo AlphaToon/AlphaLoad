@@ -2,7 +2,8 @@ files {
     'index.html',
     'bg.jpg',
     'style.css',
-    'theme.css'
+    'theme.css',
+    'Loading.ogg'
 }
 
 loadscreen 'index.html'
